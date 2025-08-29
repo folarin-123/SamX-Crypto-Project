@@ -1,0 +1,103 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #0d0d0d;
+  color: white;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  background: #111;
+  padding: 15px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+.logo span {
+  color:#ccc; /* Bitcoin Orange */
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+.navbar ul li {
+  margin-left: 20px;
+}
+.navbar ul li a {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+.navbar ul li a:hover,
+.navbar ul li a.active {
+  color:azure;
+}
+
+/* Features Section */
+.features {
+  padding: 50px;
+  text-align: center;
+}
+.features h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color:azure;
+}
+.features .intro {
+  font-size: 18px;
+  margin-bottom: 40px;
+  color:azure;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.feature-card {
+  background: #1a1a1a;
+  padding: 30px;
+  border-radius: 12px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.feature-card i {
+  font-size: 40px;
+  color: azure;
+  margin-bottom: 15px;
+}
+.feature-card h3 {
+  margin-bottom: 10px;
+}
+.feature-card p {
+  color: #bbb;
+}
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 5px 20px rgba(247, 147, 26, 0.4);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #aaa;
+}

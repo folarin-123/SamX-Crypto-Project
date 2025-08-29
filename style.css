@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #0d0d0d;
+    color: #fff;
+    line-height: 1.6;
+}
+
+
+.navbar {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color :gray;
+}
+
+.btn {
+    padding: 8px 16px;
+    background: gray;
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 600;
+    transition:  0.3s;
+}
+
+.btn:hover {
+    background: gray;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-section h1 span {
+    color:gray;
+}
+
+.hero-section p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #ccc;
+}
+
+.coin-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.coin {
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    width: 150px;
+    box-shadow: 0 4px 15px rgba(255, 204, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.coin:hover {
+    transform: translateY(-5px);
+}
+
+.coin img {
+    width: 50px;
+    margin-bottom: 10px;
+}
